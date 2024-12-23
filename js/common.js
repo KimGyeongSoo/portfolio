@@ -4,10 +4,6 @@ $(document).ready(function(){
   var pop = new Swiper(".pop-1", {
     
     loop: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
     pagination: {
       clickable: true,
       el: ".swiper-pagination",
@@ -17,10 +13,6 @@ $(document).ready(function(){
     var pop2 = new Swiper(".pop-2", {
     
       loop: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
       pagination: {
         clickable: true,
         el: ".swiper-pagination",
