@@ -1,23 +1,23 @@
 $(document).ready(function(){
 
 //팝업 슬라이드
-  var pop = new Swiper(".pop-1", {
+var pop = new Swiper(".pop-1", {
     
+  loop: true,
+  pagination: {
+    clickable: true,
+    el: ".swiper-pagination",
+  },
+  });
+
+  var pop2 = new Swiper(".pop-2", {
+  
     loop: true,
     pagination: {
       clickable: true,
       el: ".swiper-pagination",
     },
     });
-
-    var pop2 = new Swiper(".pop-2", {
-    
-      loop: true,
-      pagination: {
-        clickable: true,
-        el: ".swiper-pagination",
-      },
-      });
 
 
   //팝업
