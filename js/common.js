@@ -8,6 +8,7 @@ var pop = new Swiper(".pop-1", {
     clickable: true,
     el: ".swiper-pagination",
   },
+
   });
 
   var pop2 = new Swiper(".pop-2", {
@@ -17,6 +18,7 @@ var pop = new Swiper(".pop-1", {
       clickable: true,
       el: ".swiper-pagination",
     },
+    
     });
 
 
